@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        table{
+            backeground-color:bisque;
+            color:deepskyblue;
+        }
+       .commnt{
+            overflow-y: scroll;
+            overflow-x: scroll;
+        }
+        td{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<form action=""method="GET">
+    <table border="0"width="500px"align="center"bgcolor="#fafad2">
+        <tr>
+            <td>姓名：</td>
+            <td><input type="text"name="usename"id="" placeholder="请输入你的名字。。。"/></td>
+        </tr>
+        <tr>
+            <td>年龄</td>
+            <td><input type="number" placeholder="请输入你的年龄。。。">
+            </td>
+        </tr>
+        <tr>
+            <td>性别</td>
+            <td>
+                <input type="radio"name="xb"id=""><img src="image.jpg" width="15px" height="16px">男
+                <input type="radio"name="xb"id=""><img src="image%20(1).jpg" width="15px" height="16px">女
+            </td>
+        </tr>
+        <tr>
+            <td>爱好</td>
+            <td>
+                <input type="checkbox" name=""id="" value="1">阅读
+                <input type="checkbox" name=""id="" value="2">跑步
+                <input type="checkbox" name=""id="" value="3">游泳
+                <input type="checkbox" name=""id="" value="4">谈情
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select>
+                    <option value="">--请你选择年份--</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                </select>年
+                <select>
+                    <option value="">--请选择月份--</option>
+                    <option value="01">-01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                </select>月
+                <select>
+                    <option value="">--请选择日--</option>
+                    <option value="01">-01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                </select>日
+            </td>
+        </tr>
+        <tr><td rows="5">自我介绍</td></tr>
+        <tr><td><textarea style="resize: horizontal;"class="commnt"rows="5"cols="50"></textarea></td></tr>
+        <tr><td><input type="checkbox" name=""id="value">同意录入</td></tr>
+        <tr>
+            <td align="center" colspan="2">
+                <input type="submit" value="注册"/>
+                <input type="reset" value="重新输入"/>
+            </td>
+        </tr>
+    </table>
+
+</form>
+</body>
+</html>
